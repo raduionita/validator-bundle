@@ -1,2 +1,7 @@
-# validator-bundle
-Symfony 2 Validator Bundle
+# Symfony 2 Validator Bundle
+
+### Example
+```php
+    $validator = $this->getContainer()->get('password.validator');
+    $result = $validator->validate('mysecretpassword');
+```
