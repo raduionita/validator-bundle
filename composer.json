@@ -1,0 +1,39 @@
+{
+    "name" : "raducorp/validatorbundle",
+    "description" : "Symfony generic validator bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Radu Ionita",
+        "email" : "ionita.radu.ionut@gmail.com"
+    }],
+    "keywords" : [
+        "validator bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "require-dev": {
+        "symfony/config": "~2.3|~3.0.0",
+        "symfony/dependency-injection": "~2.3|~3.0.0",
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Raducorp\\ValidatorBundle" : ""
+        }
+    },
+    "target-dir" : "Raducorp/ValidatorBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "0.0.1-dev"
+        }
+    },
+    "scripts" : {
+        "post-install-cmd": [
+        ]
+    }
+}

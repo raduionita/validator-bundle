@@ -1,0 +1,6 @@
+services:
+#    raducorp_validator.example:
+#        class: Raducorp\ValidatorBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+    password.validator:
+        class: Raducorp\ValidatorBundle\Validator\PasswordValidator
